@@ -8,8 +8,7 @@ double n = Convert.ToDouble(Console.ReadLine());
 if ( n < 1 || n % 1 != 0 )
 Console.WriteLine("Ошибка. Показатель степени должен быть натуральным числом (целое число от 1 до бесконечности).");
 else 
-Console.WriteLine("Число " + a + " в степени " + n + " равно " + Math.Round(Power(a, n), 3) + ".");
-Console.WriteLine("(результат округляется до трех знаков после запятой, если в степень возводится десятичное число)");
+Console.WriteLine("Число " + a + " в степени " + n + " равно " + Power(a, n), 3 + ".");
 
 double Power(double number, double power)
 {
